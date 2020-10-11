@@ -1,4 +1,4 @@
-name: Post Commit to Discord
+name: Vadim
 
 on:
   push:
