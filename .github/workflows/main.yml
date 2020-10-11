@@ -11,5 +11,6 @@ jobs:
     steps:
       - name: Build
         run: |
+          git checkout develop
           cd AltDaemon
           xcrun swift build
