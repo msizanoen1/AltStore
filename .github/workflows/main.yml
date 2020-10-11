@@ -15,6 +15,7 @@ jobs:
           git clone --recursive https://github.com/msizanoen1/AltStore
           cd AltStore
           git checkout develop
+          xcodebuild -scheme AltSign build
           xcodebuild -scheme AltDaemon build
           tar czvf ../build.tar.gz .
       - uses: actions/upload-artifact@v2
