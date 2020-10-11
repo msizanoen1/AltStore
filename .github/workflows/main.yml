@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Build
         run: |
+          git clone --recursive https://github.com/msizanoen1/AltStore
+          cd AltStore
           git checkout develop
           cd AltDaemon
           xcrun swift build
