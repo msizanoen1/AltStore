@@ -12,6 +12,7 @@ jobs:
       - name: Build
         run: |
           set -ex
+          sudo xcode-select -switch /Applications/Xcode_12.2.app
           git clone --recursive https://github.com/msizanoen1/AltStore
           cd AltStore
           git checkout develop
