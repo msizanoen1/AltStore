@@ -15,4 +15,4 @@ jobs:
           cd AltStore
           git checkout develop
           cd AltDaemon
-          xcrun swift build
+          xcodebuild -list -workspace AltStore.xcworkspace
