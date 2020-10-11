@@ -14,5 +14,4 @@ jobs:
           git clone --recursive https://github.com/msizanoen1/AltStore
           cd AltStore
           git checkout develop
-          cd AltDaemon
-          xcodebuild -list -project AltStore.xcworkspace
+          xcodebuild -list -workspace AltStore.xcworkspace
